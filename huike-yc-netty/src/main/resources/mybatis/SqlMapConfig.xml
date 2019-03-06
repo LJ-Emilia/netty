@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+		PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+		"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!--<configuration>-->
+	<!--<settings>-->
+		<!--&lt;!&ndash; 是否启用下划线与驼峰式命名规则的映射 &ndash;&gt;-->
+		<!--<setting name="mapUnderscoreToCamelCase" value="true" />-->
+		<!--&lt;!&ndash; 设置二级缓存 &ndash;&gt;-->
+		<!--<setting name="cacheEnabled" value="true" />-->
+		<!--&lt;!&ndash; 打印查询语句 &ndash;&gt;-->
+		<!--<setting name="logImpl" value="SLF4J" />-->
+		<!--&lt;!&ndash; &ndash;&gt;-->
+		<!--<setting name="defaultExecutorType" value="REUSE" />-->
+		<!--&lt;!&ndash; 指定当结果集中值为 null 的时候是否调用映射对象的 setter（map 对象时为 put）方法 &ndash;&gt;-->
+		<!--<setting name="callSettersOnNulls" value="true" />-->
+		<!--&lt;!&ndash; 延迟加载 &ndash;&gt;-->
+	<!--</settings>-->
+
+	<!--<typeAliases>-->
+		<!--<package name="com.pt.pojo" />-->
+	<!--</typeAliases>-->
+
+	<!--<plugins>-->
+		<!--<plugin interceptor="com.github.pagehelper.PageInterceptor">-->
+			<!--&lt;!&ndash;分页参数合理化 &ndash;&gt;-->
+			<!--<property name="reasonable" value="true" />-->
+		<!--</plugin>-->
+	<!--</plugins>-->
+<!--</configuration>-->
