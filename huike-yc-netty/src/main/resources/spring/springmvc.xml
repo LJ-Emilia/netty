@@ -20,7 +20,7 @@
 	<mvc:resources location="/WEB-INF/css/" mapping="/css/**"/>
 	
 	<!-- 开机自动启动服务 -->
-	<bean class="com.pt.controller.listener.WebContextListener"></bean>
+	<!--<bean class="com.pt.controller.listener.WebContextListener"></bean>-->
 	
 		
 </beans>

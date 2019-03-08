@@ -12,8 +12,8 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<druid.version>1.1.2</druid.version>
 		<jstl.version>1.2</jstl.version>
-		<servlet-api.version>2.5</servlet-api.version>
-		<jsp-api.version>2.0</jsp-api.version>
+		<servlet-api.version>3.1.0</servlet-api.version>
+		<jsp-api.version>2.2</jsp-api.version>
 		<spring.version>4.3.2.RELEASE</spring.version>
 		<pagehelper.version>5.0.3</pagehelper.version>
 		<mybatis.paginator.version>1.2.15</mybatis.paginator.version>
@@ -69,12 +69,6 @@
 				<version>${druid.version}</version>
 			</dependency>
 
-			<!-- Oracle -->
-			<dependency>
-				<groupId>com.oracle</groupId>
-				<artifactId>ojdbc</artifactId>
-				<version>10.1.0.2.0</version>
-			</dependency>
 
 			<dependency>
 				<groupId>log4j</groupId>
@@ -133,7 +127,7 @@
 			<dependency>
 				<groupId>io.netty</groupId>
 				<artifactId>netty-all</artifactId>
-				<version>5.0.0.Alpha2</version>
+				<version>4.1.25.Final</version>
 			</dependency>
 
 			<!-- JSP相关 -->
@@ -145,16 +139,17 @@
 
 			<dependency>
 				<groupId>javax.servlet</groupId>
-				<artifactId>servlet-api</artifactId>
+				<!--<artifactId>servlet-api</artifactId>-->
+				<artifactId>javax.servlet-api</artifactId>
 				<version>${servlet-api.version}</version>
-				<scope>provided</scope>
+				<!--<scope>provided</scope>-->
 			</dependency>
 
 			<dependency>
 				<groupId>javax.servlet</groupId>
 				<artifactId>jsp-api</artifactId>
 				<version>${jsp-api.version}</version>
-				<scope>provided</scope>
+				<!--<scope>provided</scope>-->
 			</dependency>
 
 			<dependency>
@@ -183,7 +178,11 @@
 				<artifactId>fastjson</artifactId>
 				<version>1.2.33</version>
 			</dependency>
-
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-test</artifactId>
+                <version>4.3.2.RELEASE</version>
+            </dependency>
 		</dependencies>
 	</dependencyManagement>
 
